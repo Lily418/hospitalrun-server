@@ -4,6 +4,9 @@
   "version": "1.0.0-beta",
   "description": "HospitalRun production server",
   "homepage": "http://hospitalrun.io",
+  "engines": {
+    "node": "7.10.1"
+  },
   "scripts": {
     "start": "node app.js",
     "test": "snyk test && eslint *.js utils/*.js"
